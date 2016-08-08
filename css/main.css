@@ -1,5 +1,6 @@
 a{
 	text-decoration: none;
+  color: black;
 }                     
                        /* Header */
   /* Fondo del Header */
@@ -17,9 +18,39 @@ a{
 .menu{
 	display: inline;
 }
-/* Seccion1 6 iconos azules */
+/* Seccion3 6 iconos azules */
 
-/* Seccion2 Fondo gris */
+/* Seccion3 Fondo gris */
 .fondogris{
    background-color: gray;
+}
+/* Seccion4 mas iconos azules */
+
+
+                 /* Portafolio */
+ /* Menu del portafolio */
+ li{
+display: inline-block;
+}
+ /* Botones del menu */
+button{
+ height: 40px;
+ width: 90px;
+ background-color: white;
+ border:none;
+  /*box-shadow: none;*/
+}
+ button:hover{
+ background-color: #1742FC;
+ color: white;
+ border-color: #1742FC; 
+ height: 40px;
+ }
+ .pd-3{
+  padding: 2%;
+ } 
+
+ /* Footer */
+.bg-oscuro{
+  background-color: #373737;
 }

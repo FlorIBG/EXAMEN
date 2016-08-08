@@ -1,0 +1,25 @@
+a{
+	text-decoration: none;
+}                     
+                       /* Header */
+  /* Fondo del Header */
+.fondoheader{
+	background-image: url("../img/background/hero.jpg");
+	background-size: cover;
+	height: 650px;
+}
+.transbox{
+  background-color: black;
+  opacity: .1;
+  height: 650px;
+}
+/* Menu */
+.menu{
+	display: inline;
+}
+/* Seccion1 6 iconos azules */
+
+/* Seccion2 Fondo gris */
+.fondogris{
+   background-color: gray;
+}

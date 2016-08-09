@@ -1,30 +1,62 @@
 a{
 	text-decoration: none;
   color: black;
-}                     
-                       /* Header */
+}        
+.filtrobn{
+ background-color: rgba(0,0,9,0.09);
+}             
+                       /* Header */     /* Flor */
+/* Largos del filtro */
+.lr1{
+ height: 200px;
+ width: 100%;
+}
   /* Fondo del Header */
+
 .fondoheader{
 	background-image: url("../img/background/hero.jpg");
+/*  -webkit-filter: contrast(50%); */
 	background-size: cover;
 	height: 650px;
 }
-.transbox{
-  background-color: black;
-  opacity: .1;
-  height: 650px;
+/* Logo */
+.logomover{
+  margin-top: 5%;
 }
 /* Menu */
-.menu{
-	display: inline;
+nav{
+  margin-left: 19%;
+  margin-top: 5%;
 }
-/* Seccion3 6 iconos azules */
+.menu{
+  display: inline-block;
+  margin: 13px;
+}
+/* Titulo */
+h1{
+  font-size: 340%;
+  margin-top: 1%;
+}
+/* Parrafo de descripcion */
+.pdescripcion{
+  margin-top: -5%;
+}
+/* Botones */
+.botonheader{
+ margin: 0% 30%;
+}
+                       /* Seccion3 6 iconos azules */  /* Flor */
 
 /* Seccion3 Fondo gris */
 .fondogris{
-   background-color: gray;
+   background-color: #F2F2F2;
 }
-/* Seccion4 mas iconos azules */
+.imgcompus{
+  width: 850px;
+  height:300px;
+  margin-left: 10%;
+}
+                       /* Seccion4 mas iconos azules */    /* Flor */
 
 
                  /* Portafolio */
@@ -49,8 +81,56 @@ button{
  .pd-3{
   padding: 2%;
  } 
-
- /* Footer */
+                               /* Seccion6 Ciudad */   /* Flor */
+.ciudad{
+   background-image: url("../img/background/city.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 650px;
+}
+.pciudad{
+  font-size: 200%;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  padding: 0% 10%;
+}
+                                   /* Formulario */        /* Flor */
+.fondoescribir{
+background-image: url("../img/background/contactus.jpg"); 
+/* background:rgb(0,0,0,.5); */
+background-position: center;
+background-size: cover;
+height: 650px;
+}
+/*Formulario*/
+input, textarea{
+  border: 1px solid white;
+  color: rgb(83, 88, 95);
+  padding: 0% 2%;
+  margin: 1%;
+  width: 60%;
+  display: block;
+}
+input{
+  height: 30px;
+}
+.ajuste{
+  background-color: transparent;
+  padding-left: 40px;
+  background-position: 5%;
+  background-repeat: no-repeat;
+}
+textarea.ajustet{
+  padding-left: 40px;
+  background-color: transparent;
+  background-position: 5% 10%;
+  background-repeat: no-repeat;
+}
+.colorbotonsend{
+  background-color: #58ACFA;
+}
+/* Footer */
 .bg-oscuro{
   background-color: #373737;
 }

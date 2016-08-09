@@ -134,3 +134,35 @@ textarea.ajustet{
 .bg-oscuro{
   background-color: #373737;
 }
+.pd-2{
+  padding: 2%;
+}
+
+.bg-white{
+  background-color: white;
+}
+.shadow{
+  box-shadow: 2px 2px 5px #999;
+}
+
+.boton_oscuro{
+  background-color: #02133F !important;
+}
+hr{
+  margin: 4%;
+}
+
+#p_packblue{
+  background-color: #0EB7F6;
+}
+.div{
+  padding-left:12.5% !important;
+}
+.img_custom{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.icon_fuente{
+  font-size: 40px;
+}
